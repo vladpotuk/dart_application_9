@@ -1,4 +1,4 @@
-// 1. Підрахунок суми чисел
+// 1. Підрахунок сумvи чисел
 int calculateSum(List<int> numbers) {
   return numbers.fold(0, (prev, element) => prev + element);
 }
